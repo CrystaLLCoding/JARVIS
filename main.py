@@ -167,5 +167,25 @@ class JarvisApp(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+
+    # ============================================================
+    #  ПРОВЕРКА ЛИЦЕНЗИИ
+    # ============================================================
+    from license import check_license_online
+    from license_dialog import LicenseDialog
+
+    status = check_license_online()
+
+    if not status.get("valid"):
+        reason = status.get("reason", "")
+        # Показываем диалог активации
+        dlg = LicenseDialog(status_message=reason)
+        result = dlg.exec_()
+        if result != LicenseDialog.Accepted:
+            # Пользователь закрыл окно — выходим
+            sys.exit(0)
+
+    # Лицензия активна — запускаем HUD
     ex = JarvisApp()
     sys.exit(app.exec_())
+
