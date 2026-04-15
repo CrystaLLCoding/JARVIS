@@ -1,0 +1,390 @@
+{
+    "theme": "dark_neon",
+    "browser": "default",
+    "commands": [
+        {
+            "id": "open_chrome",
+            "type": "cmd",
+            "phrases": ["открой хром", "открой chrome"],
+            "value": "start chrome",
+            "sound": "done1.wav",
+            "reply": "Открываю браузер Chrome."
+        },
+        {
+            "id": "open_youtube",
+            "type": "url",
+            "phrases": ["открой ютуб", "открой youtube"],
+            "value": "https://www.youtube.com",
+            "sound": "done2.wav",
+            "reply": "Открываю YouTube."
+        },
+        {
+            "id": "open_vscode",
+            "type": "cmd",
+            "phrases": ["открой код", "открой vs code"],
+            "value": "code",
+            "sound": "working_on_it.wav",
+            "reply": "Открываю Visual Studio Code."
+        },
+        {
+            "id": "open_telegram",
+            "type": "cmd",
+            "phrases": ["открой телеграм", "открой telegram"],
+            "value": "start telegram",
+            "sound": "done1.wav",
+            "reply": "Telegram открыт."
+        },
+        {
+            "id": "play_music",
+            "type": "url",
+            "phrases": ["включи музыку", "поставь музыку"],
+            "value": "https://music.yandex.uz",
+            "sound": "[Русский Диктор]«Музы......сэр.».mp3",
+            "reply": "Музыка, сэр."
+        },
+        {
+            "id": "good_morning",
+            "type": "tts_only",
+            "phrases": ["доброе утро"],
+            "value": "",
+            "sound": "good_morning.wav",
+            "reply": "Доброе утро."
+        },
+        {
+            "id": "volume_up",
+            "type": "built_in",
+            "phrases": ["сделай громче", "прибавь звук"],
+            "value": "volume_up",
+            "sound": "check_complete.wav",
+            "reply": "Увеличиваю системную громкость."
+        },
+        {
+            "id": "volume_down",
+            "type": "built_in",
+            "phrases": ["сделай тише", "убавь звук"],
+            "value": "volume_down",
+            "sound": "done1.wav",
+            "reply": "Уменьшаю системную громкость."
+        },
+        {
+            "id": "system_on",
+            "type": "built_in",
+            "phrases": ["система включена", "включись", "перезагрузка завершена"],
+            "value": "system_on",
+            "sound": "[Русский Диктор]«Пере......сэр.».mp3",
+            "reply": "Системы онлайн, сэр."
+        },
+        {
+            "id": "tell_time",
+            "type": "built_in",
+            "phrases": ["сколько времени", "который час", "подскажи время"],
+            "value": "tell_time",
+            "sound": "[Русский Диктор]сейча......время.mp3",
+            "reply": "Сообщаю время."
+        },
+        {
+            "id": "open_camera",
+            "type": "built_in",
+            "phrases": ["открой камеру", "запиши видео"],
+            "value": "open_camera",
+            "sound": "ready.wav",
+            "reply": "Включаю камеру и начинаю запись."
+        },
+        {
+            "id": "shutdown_pc",
+            "type": "built_in",
+            "phrases": ["выключи пк", "выключи компьютер"],
+            "value": "shutdown",
+            "sound": "[Русский Диктор]«Выкл......язи.».mp3",
+            "reply": "Отключаю питание."
+        },
+        {
+            "id": "exit_app",
+            "type": "built_in",
+            "phrases": ["конец связи", "отключись"],
+            "value": "exit",
+            "sound": "[Русский Диктор]«Выкл......язи.».mp3",
+            "reply": "Отключаюсь со связи."
+        },
+        {
+            "id": "joke",
+            "type": "tts_only",
+            "phrases": ["пошути", "расскажи шутку", "шутка"],
+            "value": "",
+            "sound": "joke.wav",
+            "reply": "О чем я думал..."
+        },
+        {
+            "id": "judgment_day",
+            "type": "tts_only",
+            "phrases": ["запусти протокол", "судный день"],
+            "value": "",
+            "sound": "[Русский Диктор]«Запу......дня_».mp3",
+            "reply": "Протокол запущен."
+        },
+        {
+            "id": "cancel_shutdown",
+            "type": "built_in",
+            "phrases": ["отмени выключение", "отмена выключения", "не выключай"],
+            "value": "cancel_shutdown",
+            "sound": "ready.wav",
+            "reply": "Таймер выключения системы отменен."
+        },
+        {
+            "id": "reboot_system",
+            "type": "built_in",
+            "phrases": ["перезагрузи систему", "перезагрузка", "рестарт"],
+            "value": "reboot",
+            "sound": "reboot.wav",
+            "reply": "Перезагрузка системы..."
+        },
+        {
+            "id": "open_weather",
+            "type": "url",
+            "phrases": ["какая погода", "погода на сегодня", "погода"],
+            "value": "https://www.gismeteo.ru",
+            "sound": "weather_ny.wav",
+            "reply": "Проверяю погоду."
+        },
+        {
+            "id": "open_explorer",
+            "type": "cmd",
+            "phrases": ["открой проводник", "проводник", "мои файлы", "файлы"],
+            "value": "explorer",
+            "sound": "assembly.wav",
+            "reply": "Открываю проводник."
+        },
+        {
+            "id": "battery_settings",
+            "type": "url",
+            "phrases": ["статус батареи", "настройки батареи", "уровень заряда", "экономия заряда"],
+            "value": "ms-settings:batterysaver",
+            "sound": "charge_low.wav",
+            "reply": "Открываю настройки батареи."
+        },
+        {
+            "id": "congrats",
+            "type": "tts_only",
+            "phrases": ["поздравь меня", "отличная работа"],
+            "value": "",
+            "sound": "congrats.wav",
+            "reply": "Примите поздравления, сэр."
+        },
+        {
+            "id": "check_network",
+            "type": "built_in",
+            "phrases": ["диагностика сети", "проверь интернет", "пинг"],
+            "value": "check_network",
+            "sound": "diag1.wav",
+            "reply": "Запускаю диагностику сети."
+        },
+        {
+            "id": "system_info",
+            "type": "cmd",
+            "phrases": ["информация о системе", "характеристики пк", "параметры компьютера"],
+            "value": "msinfo32",
+            "sound": "diag2.wav",
+            "reply": "Открываю информацию о системе."
+        },
+        {
+            "id": "task_manager",
+            "type": "built_in",
+            "phrases": ["диспетчер задач", "открой задачи", "процессы"],
+            "value": "task_manager",
+            "sound": "enemy_fly.wav",
+            "reply": "Открываю диспетчер задач."
+        },
+        {
+            "id": "open_sheets",
+            "type": "url",
+            "phrases": ["открой таблицу", "гугл таблицы", "новая таблица"],
+            "value": "https://sheets.new",
+            "sound": "grid.wav",
+            "reply": "Открываю Google Таблицы."
+        },
+        {
+            "id": "lock_screen",
+            "type": "built_in",
+            "phrases": ["заблокируй экран", "заблокируй пк", "блокировка"],
+            "value": "lock_screen",
+            "sound": "impossible.wav",
+            "reply": "Блокирую рабочую станцию."
+        },
+        {
+            "id": "open_terminal",
+            "type": "cmd",
+            "phrases": ["открой терминал", "открой консоль", "командная строка"],
+            "value": "start cmd",
+            "sound": "loading.wav",
+            "reply": "Открываю терминал."
+        },
+        {
+            "id": "open_notepad",
+            "type": "cmd",
+            "phrases": ["открой блокнот", "создай заметку", "блокнот"],
+            "value": "notepad",
+            "sound": "new_element.wav",
+            "reply": "Открываю блокнот."
+        },
+        {
+            "id": "sleep_mode",
+            "type": "built_in",
+            "phrases": ["спящий режим", "режим сна", "усыпи компьютер"],
+            "value": "sleep",
+            "sound": "no_pain.wav",
+            "reply": "Перевожу систему в спящий режим."
+        },
+        {
+            "id": "control_panel",
+            "type": "cmd",
+            "phrases": ["панель управления", "открой панель управления"],
+            "value": "control",
+            "sound": "palladium.wav",
+            "reply": "Открываю панель управления."
+        },
+        {
+            "id": "open_mail",
+            "type": "url",
+            "phrases": ["открой почту", "электронная почта", "почта"],
+            "value": "ms-mail:",
+            "sound": "potts.wav",
+            "reply": "Открываю почту."
+        },
+        {
+            "id": "screenshot_tool",
+            "type": "built_in",
+            "phrases": ["сделай скриншот", "снимок экрана", "скриншот"],
+            "value": "screenshot",
+            "sound": "render1.wav",
+            "reply": "Запускаю инструмент снимка экрана."
+        },
+        {
+            "id": "save_screenshot",
+            "type": "built_in",
+            "phrases": ["сохрани скриншот", "сохрани экран", "сфотографируй экран"],
+            "value": "save_screenshot",
+            "sound": "save_db.wav",
+            "reply": "Сохраняю снимок экрана."
+        },
+        {
+            "id": "disk_cleanup",
+            "type": "cmd",
+            "phrases": ["очистка диска", "очисти диск", "очистить временные файлы"],
+            "value": "cleanmgr",
+            "sound": "scan_done.wav",
+            "reply": "Открываю очистку диска."
+        },
+        {
+            "id": "open_calculator",
+            "type": "cmd",
+            "phrases": ["открой калькулятор", "калькулятор"],
+            "value": "calc",
+            "sound": "simulations.wav",
+            "reply": "Открываю калькулятор."
+        },
+        {
+            "id": "open_radio",
+            "type": "url",
+            "phrases": ["включи радио", "открой радио", "радио онлайн"],
+            "value": "https://www.101.ru",
+            "sound": "song.wav",
+            "reply": "Открываю онлайн радио."
+        },
+        {
+            "id": "windows_settings",
+            "type": "url",
+            "phrases": ["открой настройки", "настройки windows", "параметры системы"],
+            "value": "ms-settings:",
+            "sound": "suit_warning.wav",
+            "reply": "Открываю настройки Windows."
+        },
+        {
+            "id": "device_manager",
+            "type": "cmd",
+            "phrases": ["диспетчер устройств", "открой устройства", "управление устройствами"],
+            "value": "devmgmt.msc",
+            "sound": "tracing.wav",
+            "reply": "Открываю диспетчер устройств."
+        },
+        {
+            "id": "windows_defender",
+            "type": "url",
+            "phrases": ["защитник windows", "антивирус", "открой антивирус"],
+            "value": "windowsdefender:",
+            "sound": "under_attack.wav",
+            "reply": "Открываю Windows Defender."
+        },
+        {
+            "id": "open_photos",
+            "type": "url",
+            "phrases": ["открой галерею", "мои фото", "просмотр фотографий"],
+            "value": "ms-photos:",
+            "sound": "visual.wav",
+            "reply": "Открываю галерею фотографий."
+        },
+        {
+            "id": "power_options",
+            "type": "cmd",
+            "phrases": ["план питания", "параметры питания", "настройки питания"],
+            "value": "powercfg.cpl",
+            "sound": "Включилось аварийное резервное питание.wav",
+            "reply": "Открываю параметры питания."
+        },
+        {
+            "id": "open_maps",
+            "type": "url",
+            "phrases": ["открой карты", "гугл карты", "навигация"],
+            "value": "https://www.google.com/maps",
+            "sound": "Восточное побережье.wav",
+            "reply": "Открываю Google Карты."
+        },
+        {
+            "id": "incognito_mode",
+            "type": "cmd",
+            "phrases": ["режим инкогнито", "приватный режим", "инкогнито"],
+            "value": "start chrome --incognito",
+            "sound": "Да, это поможет вам оставаться незамеченным.wav",
+            "reply": "Открываю Chrome в режиме инкогнито."
+        },
+        {
+            "id": "jarvis_intro",
+            "type": "tts_only",
+            "phrases": ["представься", "кто ты", "назови себя"],
+            "value": "",
+            "sound": "Джарвис - приветствие.wav",
+            "reply": "Я ДЖАРВИС — ваш персональный ИИ-ассистент."
+        },
+        {
+            "id": "windows_update",
+            "type": "url",
+            "phrases": ["проверь обновления", "обновления windows", "обновить систему"],
+            "value": "ms-settings:windowsupdate",
+            "sound": "Импортирую установки, начинаю калибровку виртуальной среды.wav",
+            "reply": "Открываю Центр обновления Windows."
+        },
+        {
+            "id": "restart_explorer",
+            "type": "built_in",
+            "phrases": ["перезапусти проводник", "перезапуск проводника", "перезагрузи explorer"],
+            "value": "restart_explorer",
+            "sound": "Реактор принял модифицированное ядро.wav",
+            "reply": "Перезапускаю проводник Windows."
+        },
+        {
+            "id": "show_desktop",
+            "type": "built_in",
+            "phrases": ["покажи рабочий стол", "сверни всё", "рабочий стол"],
+            "value": "show_desktop",
+            "sound": "show_desktop.wav",
+            "reply": "Показываю рабочий стол."
+        },
+        {
+            "id": "system_properties",
+            "type": "cmd",
+            "phrases": ["свойства системы", "информация о компьютере", "характеристики компьютера"],
+            "value": "sysdm.cpl",
+            "sound": "Реактор не предназначен для длительных полетов.wav",
+            "reply": "Открываю свойства системы."
+        }
+    ]
+}
